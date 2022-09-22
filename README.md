@@ -41,6 +41,12 @@ Built using Vite, the Web client allows the user to create an ad and look for th
 
 ## :iphone: Mobile ##
 
+* [TypeScript](https://www.typescriptlang.org/)      
+* [React Native](https://reactnative.dev/)      
+* [Expo](https://expo.dev/)
+
+[How to run the Mobile client](https://github.com/debfdias/e-sports/tree/master/mobile)
+
 ## :construction: Next steps ##
 
 ## :page_facing_up: License
