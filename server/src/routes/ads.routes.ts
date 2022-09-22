@@ -7,7 +7,7 @@ const adsController = new AdsController();
 
 adsRoutes.get('/', adsController.listAll);
 adsRoutes.get('/game/:game_id', adsController.listByGame);
-adsRoutes.get('/:ad_id', adsController.listByDiscord);
+adsRoutes.get('/:ad_id/discord', adsController.listByDiscord);
 adsRoutes.post('/game/:game_id', adsController.create);
 
 export { adsRoutes };
