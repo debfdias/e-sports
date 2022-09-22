@@ -4,6 +4,9 @@
    <img src="../.github/logo.png" alt="e-sports" />
 </p>
 
+<h1 align="center">
+    <img src="../.github/web1.png" />
+</h1>
 
 <p align="center">
 🎮 Find your best duo and have fun playing your favorite game!
@@ -41,8 +44,8 @@ $ npm run dev
 ## :framed_picture: Screenshots ##
 
 <h1 align="center">
-    <img alt = "Screen1" src = "../.github/web1.png" width = "700px" />
-    <img alt = "Screen2" src = "../.github/web2.png" width = "700px" />
+    <img alt = "Screen1" src = "../.github/web1.png" width = "500px" />
+    <img alt = "Screen2" src = "../.github/web2.png" width = "500px" />
 </h1>
 
 
