@@ -31,6 +31,14 @@ A fast and scale API built with Node and Typescript. To run it, check out the se
 
 ## :desktop_computer: Web ##
 
+* [TypeScript](https://www.typescriptlang.org/)      
+* [ReactJS](https://reactjs.org/)      
+* [Vite](https://vitejs.dev/)
+
+Built using Vite, the Web client allows the user to create an ad and look for their duo.
+
+[How to run the Web client](https://github.com/debfdias/e-sports/tree/master/web)
+
 ## :iphone: Mobile ##
 
 ## :construction: Next steps ##
