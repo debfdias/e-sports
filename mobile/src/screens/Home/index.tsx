@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { Image, FlatList} from 'react-native';
+import { Image, FlatList, Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation, useRoute } from '@react-navigation/native';
 
 import { GameCard, GameCardProps } from '../../components/GameCard';
 import { Header } from '../../components/Header';
@@ -10,11 +10,16 @@ import { styles } from './styles';
 
 import api from '../../services/api';
 import { Background } from '../../components/Background';
+import { PlayerParams } from '../../@types/navigation';
+
 
 export function Home() {
   const [games, setGames] = useState<GameCardProps[]>([]);
 
   const navigation = useNavigation();
+  const route = useRoute();
+
+  const player = route.params as PlayerParams;
 
   function handleSelectGame({ id, title, banner_url }: GameCardProps) {
     navigation.navigate('game', { id, title, banner_url});
@@ -33,8 +38,9 @@ export function Home() {
         />
 
         <Header 
-          title="Find your DUO"
-          subtitle="Select your game..."
+          greeting={`Hello, ${player.username}`}
+          title="I wanna play a game..."
+          subtitle="Select one..."
         />
 
         <FlatList
