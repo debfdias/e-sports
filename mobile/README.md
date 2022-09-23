@@ -4,10 +4,15 @@
    <img src="../.github/logo.png" alt="e-sports" />
 </p>
 
-
 <p align="center">
 🎮 Find your best duo and have fun playing your favorite game!
 </p>
+
+<h1 align="center">
+    <img alt = "Screen1" src = "../.github/mobile1.png" width = "300px" />
+    <img alt = "Screen2" src = "../.github/mobile2.png" width = "300px" />
+    <img alt = "Screen3" src = "../.github/mobile3.png" width = "300px" />
+</h1>
 
 ---
 
@@ -40,15 +45,6 @@ $ expo start --android
 $ expo start --ios
 
 ```
-
-## :framed_picture: Screenshots ##
-
-<h1 align="center">
-    <img alt = "Screen1" src = "../.github/mobile1.png" width = "700px" />
-    <img alt = "Screen2" src = "../.github/mobile2.png" width = "700px" />
-    <img alt = "Screen3" src = "../.github/mobile3.png" width = "700px" />
-</h1>
-
 
 ## :page_facing_up: License
 
