@@ -20,6 +20,7 @@ This project was made using the following technologies:
 * [TypeScript](https://www.typescriptlang.org/)      
 * [ReactJS](https://reactjs.org/)      
 * [Vite](https://vitejs.dev/)
+* [Tailwind](https://tailwindcss.com/)
 
 
 ## :computer: How to run
